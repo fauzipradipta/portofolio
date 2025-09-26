@@ -44,10 +44,10 @@ export const skillsData = {
 export const experienceData = [
   {
     id: 1,
-    company: "TechCorp Inc.",
-    position: "Senior Software Engineer",
-    duration: "2022 - Present",
-    location: "San Francisco, CA",
+    company: "Typedream",
+    position: "Quality Assurance",
+    duration: "2022 - 2023",
+    location: "Remote US",
     description: "Lead development of microservices architecture serving 500K+ users. Built real-time analytics dashboard using React and Node.js. Mentored 3 junior engineers and established code review processes.",
     achievements: [
       "Reduced API response times by 40% through optimization",
@@ -57,7 +57,7 @@ export const experienceData = [
   },
   {
     id: 2,
-    company: "StartupXYZ",
+    company: "Cogent InfoTech",
     position: "Full Stack Developer",
     duration: "2020 - 2022",
     location: "Austin, TX",
