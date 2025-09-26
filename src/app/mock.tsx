@@ -1,18 +1,19 @@
 // Mock data for software engineer portfolio
 
 export const personalInfo = {
-  name: "Alex Thompson",
+  name: "Syawadhilah Fauzi Pradipta",
   title: "Full Stack Software Engineer",
-  email: "alex.thompson@email.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
-  github: "https://github.com/alexthompson",
-  linkedin: "https://linkedin.com/in/alexthompson",
+  email: "dipta0988@gmail.com",
+  phone: "+62817407789",
+  location: "Jakarta, Indonesia",
+  github: "https://github.com/fauzipradipta",
+  linkedin: "https://www.linkedin.com/in/syawadhilah-pradipta/",
   website: "https://alexthompson.dev",
   resumeUrl: "/resume-alex-thompson.pdf"
 };
 
 export const aboutData = {
+  title:"Turning complex problems into elegant, scalable solutions — one line of code at a time.",
   bio: "Passionate full-stack software engineer with 5+ years of experience building scalable web applications and distributed systems. Specialized in React, Node.js, and cloud architecture. Love solving complex problems and mentoring junior developers.",
   highlights: [
     "5+ years of professional software development",
@@ -24,9 +25,9 @@ export const aboutData = {
 
 export const skillsData = {
   technical: [
-    { category: "Frontend", skills: ["React", "TypeScript", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"] },
-    { category: "Backend", skills: ["Node.js", "Python", "Java", "Express.js", "FastAPI", "GraphQL", "REST APIs"] },
-    { category: "Database", skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Elasticsearch"] },
+    { category: "Frontend", skills: ["React", "TypeScript", "JavaScript","Next.js","React", "HTML5", "CSS3", "Tailwind CSS"] },
+    { category: "Backend", skills: ["Node.js", "Python", "Java", "Express.js", "FastAPI", "SpringBoot", "REST APIs"] },
+    { category: "Database", skills: ["PostgreSQL", "MongoDB", "MySQL", "Elasticsearch"] },
     { category: "Cloud & DevOps", skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Jenkins"] },
     { category: "Tools", skills: ["Git", "Webpack", "Jest", "Cypress", "Figma", "Jira"] }
   ],
@@ -35,7 +36,7 @@ export const skillsData = {
     "Agile/Scrum",
     "Code Review",
     "Technical Writing",
-    "Mentoring",
+    // "Mentoring",
     "Problem Solving"
   ]
 };
@@ -69,9 +70,9 @@ export const experienceData = [
   },
   {
     id: 3,
-    company: "DevSolutions LLC",
-    position: "Junior Software Developer",
-    duration: "2019 - 2020",
+    company: "Total System Services",
+    position: "Software Engineer",
+    duration: "2021 - 2021",
     location: "Remote",
     description: "Developed web applications using JavaScript, Python, and MySQL. Worked on both frontend and backend features while learning best practices for software development.",
     achievements: [
