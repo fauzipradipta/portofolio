@@ -1,5 +1,3 @@
-// Mock data for software engineer portfolio
-
 export const personalInfo = {
   name: "Syawadhilah Fauzi Pradipta",
   title: "Full Stack Software Engineer",
