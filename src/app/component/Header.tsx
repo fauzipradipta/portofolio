@@ -2,6 +2,9 @@
 import React from "react";
 import { Download } from "lucide-react";
 import { personalInfo } from "../data/mock";
+import ThemeToggle from "./ThemeToggle";
+
+import "../index.css";
 const Header = () => {
     const scrollToSection = (sectionId:string) => {
     const element = document.getElementById(sectionId);
@@ -50,7 +53,7 @@ const Header = () => {
               <Download size={14} />
               <span>Resume</span>
             </button>
-            {/* <ThemeToggle /> */}
+            <ThemeToggle />
           </div>
         </div>
       </div>
