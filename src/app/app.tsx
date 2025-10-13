@@ -1,14 +1,13 @@
-import Hero from '@/page/Hero';
-import Header from '../component/Header'
-import React from 'react';
+import React from "react";
+import Header from "./component/Header";
+import Hero from "./component/Hero";
 
-function App(){
+const App = () => {
     return(
         <div>
             <Header />
-            <Hero/>
+            <Hero />
         </div>
-        
     );
 }
 

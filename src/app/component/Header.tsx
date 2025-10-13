@@ -1,18 +1,29 @@
 "use client"
-import React from 'react';
-import { personalInfo } from '../data/mock'
-import { Download } from 'lucide-react';
-// import ThemeToggle from './ThemeToggle';
-const Header=() =>{
+import React from "react";
+import { Download } from "lucide-react";
+import { personalInfo } from "../data/mock";
+import ThemeToggle from "./ThemeToggle";
 
-    const scrollToSection = (sectionId: string) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-    return (
-         <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border-light">
+import "../index.css";
+const Header = () => {
+    const scrollToSection = (sectionId:string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const downloadResume = () => {
+    // Mock download functionality
+    const link = document.createElement('a');
+    link.href = personalInfo.resumeUrl;
+    link.download = 'Alex_Thompson_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+    return(
+     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border-light">
       <div className="container">
         <div className="flex items-center justify-between py-4">
           <div className="header-logo">
@@ -34,7 +45,7 @@ const Header=() =>{
             </button>
           </nav>
 
-          {/* <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4">
             <button
               onClick={downloadResume}
               className="btn-primary hidden sm:flex items-center space-x-2"
@@ -43,11 +54,10 @@ const Header=() =>{
               <span>Resume</span>
             </button>
             <ThemeToggle />
-          </div> */}
+          </div>
         </div>
       </div>
     </header>
-    );
+    )
 }
-
-export default Header;
+export default Header
