@@ -1,4 +1,4 @@
-export const personalInfo = {
+export const  personalInfo = {
   name: "Syawadhilah Fauzi Pradipta",
   title: "Full Stack Software Engineer",
   email: "dipta0988@gmail.com",

@@ -11,11 +11,12 @@ const Hero = () => {
             <div className="mb-8">
               <p className="label mb-4">Software Engineer</p>
               <h1 className="hero-title mb-46">
-                {personalInfo.name.split(' ').map((word, index) => (
+                {/* {personalInfo.name.split(' ').map((word, index) => (
                   <span key={index} className="block">
                     {word}
                   </span>
-                ))}
+                ))} */}
+                {personalInfo.name}
               </h1>
               <p className="text-big max-w-3xl mx-auto">
                 {aboutData.bio}
