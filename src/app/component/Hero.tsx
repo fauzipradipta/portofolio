@@ -4,7 +4,7 @@ import { personalInfo, aboutData } from '../data/mock';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20">
+    <section className="min-h-screen flex items-center justify-center pt-32">
       <div className="container mt-16">
         <div className="grid-container">
           <div className="max-w-4xl mx-auto text-center">
@@ -16,6 +16,8 @@ const Hero = () => {
                     {word}
                   </span>
                 ))}
+
+                {/* {personalInfo.name} */}
               </h1>
               <p className="text-bio max-w-3xl mx-auto">
                 {aboutData.bio}

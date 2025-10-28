@@ -14,6 +14,8 @@ code {
         monospace;
 }
 
+
+
 /* Monochrome Design System */
 :root {
   /* Foundation Colors */
@@ -58,9 +60,14 @@ code {
 }
 
 /* Typography System */
+.hero-section {
+    padding-top: 617px;
+}
+
 .hero-title { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
-  font-size: clamp(60px, 15vw, 280px); 
+  
+  font-size: 120px;
   font-weight: 900; 
   color: var(--text-primary); 
   line-height: 1; 

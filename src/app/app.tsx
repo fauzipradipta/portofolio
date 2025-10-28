@@ -6,7 +6,10 @@ const App = () => {
     return(
         <div>
             <Header />
-            <Hero />
+            <div className="hero-section">
+               <Hero /> 
+            </div>
+
         </div>
     );
 }
