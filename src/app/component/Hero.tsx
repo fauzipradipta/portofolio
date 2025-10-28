@@ -4,20 +4,22 @@ import { personalInfo, aboutData } from '../data/mock';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20">
-      <div className="container">
+    <section className="min-h-screen flex items-center justify-center pt-32">
+      <div className="container mt-16">
         <div className="grid-container">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <p className="label mb-4">Software Engineer</p>
-              <h1 className="hero-title mb-46">
+              <h1 className="hero-title mb-8">
                 {personalInfo.name.split(' ').map((word, index) => (
                   <span key={index} className="block">
                     {word}
                   </span>
                 ))}
+
+                {/* {personalInfo.name} */}
               </h1>
-              <p className="text-big max-w-3xl mx-auto">
+              <p className="text-bio max-w-3xl mx-auto">
                 {aboutData.bio}
               </p>
             </div>

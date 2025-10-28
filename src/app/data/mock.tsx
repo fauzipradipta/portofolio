@@ -1,4 +1,4 @@
-export const personalInfo = {
+export const  personalInfo = {
   name: "Syawadhilah Fauzi Pradipta",
   title: "Full Stack Software Engineer",
   email: "dipta0988@gmail.com",
@@ -12,7 +12,7 @@ export const personalInfo = {
 
 export const aboutData = {
   title:"Turning complex problems into elegant, scalable solutions — one line of code at a time.",
-  bio: "Passionate full-stack software engineer with 2+ years of experience.",
+  bio: "Passionate full-stack software engineer with 2+ years of experience building scalable web applications and distributed systems. Specialized in React, Spring Boot, and cloud architecture.",
   highlights: [
     "5+ years of professional software development",
     "Led teams of 3-5 engineers on multiple projects", 

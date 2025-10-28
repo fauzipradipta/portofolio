@@ -3,8 +3,8 @@ import React from "react";
 import { Download } from "lucide-react";
 import { personalInfo } from "../data/mock";
 import ThemeToggle from "./ThemeToggle";
+// import "../index.css";
 
-import "../index.css";
 const Header = () => {
     const scrollToSection = (sectionId:string) => {
     const element = document.getElementById(sectionId);
