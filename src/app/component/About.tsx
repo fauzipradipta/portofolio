@@ -17,22 +17,6 @@ const About = () => {
               {aboutMeData.subBio}
             </p>
           </div>
-
-          
-
-              {/* <div className="mt-8">
-                <h4 className="text-regular mb-6">Key Achievements</h4>
-                <div className="space-y-4">
-                  {aboutData.highlights.map((highlight, index) => (
-                    <div key={index} className="flex items-start space-x-3">
-                      <div className="w-1 h-1 bg-text-primary mt-2 flex-shrink-0"></div>
-                      <p className="text-body">{highlight}</p>
-                    </div>
-                  ))}
-                </div>
-              </div> */}
-            </div>
-          </div>
         </div>
       </div>
     </section>
