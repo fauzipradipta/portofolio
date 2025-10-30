@@ -59,14 +59,14 @@ code {
   }
 }
 
+
 /* Typography System */
 .hero-section {
-    padding-top: 617px;
+    padding-top: 2371px;
 }
 
 .hero-title { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
-  
   font-size: 120px;
   font-weight: 900; 
   color: var(--text-primary); 
@@ -110,6 +110,14 @@ code {
   color: var(--text-primary); 
   line-height: 1.2;
 }
+.text-regular p {
+  margin-bottom: 1.5rem;
+}
+
+.sub-bio {
+  margin-top: 1rem;
+}
+
 
 .text-body { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
