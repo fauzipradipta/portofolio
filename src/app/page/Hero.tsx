@@ -2,6 +2,7 @@ import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { personalInfo, aboutData } from '../data/mock';
 import Image from 'next/image';
+import ReadMoreButton from '../component/button/ReadMoreButton';
 
 const Hero = () => {
   return (
@@ -62,13 +63,14 @@ const Hero = () => {
             </div>
 
             <div className='flex justify-center mt-8'>
-              <Image
+              {/* <Image
                 src="/app/assets/Read-More-Button.svg"
                 alt="read-more-button"
                 width={119}
                 height={63}
                 priority
-              />
+              /> */}
+              <ReadMoreButton />
             </div>
           </div>
         </div>
