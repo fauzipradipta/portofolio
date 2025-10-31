@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./page/Header";
+import Header from "./component/Header";
 import Hero from "./page/Hero";
 import About from "./page/About";
 import WorkExperience from "./page/WorkExperience";
