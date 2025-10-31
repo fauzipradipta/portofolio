@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./component/Header";
 import Hero from "./component/Hero";
 import About from "./component/About";
+import WorkExperience from "./component/WorkExperience";
 
 const App = () => {
     return(
@@ -12,7 +13,7 @@ const App = () => {
                
             </div>
             <About />
-
+            <WorkExperience/>
         </div>
     );
 }
