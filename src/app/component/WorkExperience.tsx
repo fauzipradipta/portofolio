@@ -8,6 +8,7 @@ const WorkExperience = () => {
                 <div className="grid-container">
                     <div className="text-center mb-16">
                         <p className="title-big mb-4">Work Experience</p>
+                        {/* experience List */}
                         <div className="experience-list">
                             {experienceData.map((experience) => (
                                 <div key={experience.id} className="experience-item mb-12 text-left">
