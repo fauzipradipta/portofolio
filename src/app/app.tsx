@@ -8,12 +8,15 @@ const App = () => {
     return(
         <div>
             <Header />
-            <div className="hero-section">
-               <Hero /> 
+            <main>
+                <div className="hero-section">
+                 <Hero /> 
                
-            </div>
-            <About />
-            <WorkExperience/>
+                </div>
+                <About />
+                <WorkExperience/>
+            </main>
+           
         </div>
     );
 }
