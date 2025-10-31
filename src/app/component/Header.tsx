@@ -31,7 +31,7 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <button onClick={() => scrollToSection('about')} className="nav-link">
+            <button onClick={() => scrollToSection('About')} className="nav-link">
               About
             </button>
             <button onClick={() => scrollToSection('experience')} className="nav-link">

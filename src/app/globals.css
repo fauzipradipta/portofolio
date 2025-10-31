@@ -59,14 +59,14 @@ code {
   }
 }
 
+
 /* Typography System */
 .hero-section {
-    padding-top: 617px;
+    padding-top: 1600px;
 }
 
 .hero-title { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
-  
   font-size: 120px;
   font-weight: 900; 
   color: var(--text-primary); 
@@ -87,7 +87,8 @@ code {
 
 .title-big { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
-  font-size: clamp(40px, 8vw, 150px); 
+  /* font-size: clamp(40px, 8vw, 150px); */
+  font-size: 48px;
   font-weight: 900; 
   color: var(--text-primary); 
   line-height: 1; 
@@ -95,6 +96,9 @@ code {
   letter-spacing: -0.01em;
 }
 
+.about-bio{
+  margin-top: 50px;
+}
 .text-big { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
   font-size: clamp(32px, 6vw, 84px); 
@@ -110,6 +114,14 @@ code {
   color: var(--text-primary); 
   line-height: 1.2;
 }
+.text-regular p {
+  margin-bottom: 1.5rem;
+}
+
+.sub-bio {
+  margin-top: 1rem;
+}
+
 
 .text-body { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
