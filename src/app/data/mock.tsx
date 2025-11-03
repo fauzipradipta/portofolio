@@ -61,8 +61,8 @@ export const experienceData = [
     id: 2,
     company: "Cogent InfoTech",
     position: "Full Stack Developer",
-    duration: "2020 - 2022",
-    location: "Austin, TX",
+    duration: "2022 - 2022",
+    location: "Remote US",
     description: "Built and maintained customer-facing web applications using React, Node.js, and PostgreSQL. Collaborated with product and design teams to deliver features for 50K+ active users.",
     achievements: [
       "Developed user authentication system from scratch",
@@ -75,7 +75,7 @@ export const experienceData = [
     company: "Total System Services",
     position: "Software Engineer",
     duration: "2021 - 2021",
-    location: "Remote",
+    location: "Alpharetta, GA",
     description: "Developed web applications using JavaScript, Python, and MySQL. Worked on both frontend and backend features while learning best practices for software development.",
     achievements: [
       "Built admin dashboard reducing manual work by 30%",
