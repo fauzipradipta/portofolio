@@ -133,6 +133,15 @@ export const projectsData = [
   }
 ];
 
+export const pageTitles={
+  about:"About Me",
+  experience:"Work Experience",
+  projects:"Projects",
+  skills:"skills",
+  competencies:"Core Competencies",
+  contact:"Contact Me"
+}
+
 export const contactFormFields = {
   name: "",
   email: "", 
