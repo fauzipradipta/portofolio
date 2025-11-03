@@ -14,11 +14,13 @@ const WorkExperience = () => {
                                 {experienceData.map((experience) => (
                                     <div 
                                         key={experience.id} 
-                                        className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 text-left"
-                                    >
-                                        <h3 className="text-xl font-bold mb-2">{experience.position}</h3>
-                                        <h4 className="text-lg mb-2">{experience.company}</h4>
-                                        <p className="text-sm italic mb-4">{experience.duration} | {experience.location}</p>
+                                        className="p-6 border border-gray-200 rounded-lg shadow-sm card dark:border-gray-700 text-left">                                        
+                                        <div className="flex justify-between items-center mb-4">
+                                            <h3 className="text-xl font-bold mb-2">{experience.position}</h3>
+                                            <p className="text-sm italic mb-4">{experience.duration}</p>
+                                        </div>
+                                        <h3 className="text-lg mb-2">{experience.company}</h3>
+                                        <p className="text-lg mb-2">{experience.location}</p>
                                         <p className="text-regular mb-4">{experience.description}</p>
                                         <ul className="list-disc list-inside space-y-2">
                                             {experience.achievements.map((achievement, index) => (
