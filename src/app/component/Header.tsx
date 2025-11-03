@@ -2,7 +2,7 @@
 import React from "react";
 import { Download } from "lucide-react";
 import { personalInfo } from "../data/mock";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../page/ThemeToggle";
 // import "../index.css";
 
 const Header = () => {
