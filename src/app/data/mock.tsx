@@ -27,11 +27,11 @@ export const aboutMeData={
 }
 export const skillsData = {
   technical: [
-    { category: "Frontend", skills: ["React", "TypeScript", "JavaScript","Next.js","React", "HTML5", "CSS3", "Tailwind CSS"] },
-    { category: "Backend", skills: ["Node.js", "Python", "Java", "Express.js", "FastAPI", "SpringBoot", "REST APIs"] },
-    { category: "Database", skills: ["PostgreSQL", "MongoDB", "MySQL", "Elasticsearch"] },
-    { category: "Cloud & DevOps", skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Jenkins"] },
-    { category: "Tools", skills: ["Git", "Webpack", "Jest", "Cypress", "Figma", "Jira"] }
+    { category: "Frontend", skills: ["React","Next.js","React", "HTML5", "CSS3", "Tailwind CSS"] },
+    { category: "Backend", skills: ["Node.js", "Python", "Java", "JavaScript","Express.js",  "SpringBoot", "REST APIs"] },
+    { category: "Database", skills: ["PostgreSQL",  "MySQL", "Elasticsearch"] },
+    { category: "Cloud & DevOps", skills: ["AWS", "Docker", "Kubernetes", "CI/CD",  "Jenkins"] },
+    { category: "Tools", skills: ["Git", "Jest", "Cypress", "Figma", "Jira"] }
   ],
   soft: [
     "Team Leadership",
@@ -132,6 +132,15 @@ export const projectsData = [
     featured: false
   }
 ];
+
+export const pageTitles={
+  about:"About Me",
+  experience:"Work Experience",
+  projects:"Projects",
+  skills:"skills",
+  competencies:"Core Competencies",
+  contact:"Contact Me"
+}
 
 export const contactFormFields = {
   name: "",

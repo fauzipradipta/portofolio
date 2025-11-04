@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import Hero from "./page/Hero";
 import About from "./page/About";
 import WorkExperience from "./page/WorkExperience";
+import Skills from "./page/Skills";
 
 const App = () => {
     return(
@@ -14,7 +15,15 @@ const App = () => {
                
                 </div>
                 <About />
-                <WorkExperience/>
+
+                <div className="work-experience-section">
+                  <WorkExperience/>
+                </div>
+                
+                <div className="skills-section">
+                    <Skills/>
+                </div>
+                
             </main>
            
         </div>

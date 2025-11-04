@@ -63,13 +63,6 @@ const Hero = () => {
             </div>
 
             <div className='flex justify-center mt-8'>
-              {/* <Image
-                src="/app/assets/Read-More-Button.svg"
-                alt="read-more-button"
-                width={119}
-                height={63}
-                priority
-              /> */}
               <ReadMoreButton />
             </div>
           </div>
