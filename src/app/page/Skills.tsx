@@ -25,14 +25,17 @@ const Skills = () => {
                     </div>
                     <div className="text-right">
                         <p className="title-big mb-3">Core Competencies</p>
-                        <div className='flex flex-col items-start gap-3 card-skill-core'>                       
-                                {skillsData.soft.map((skill,index)=>(
-                                    <div key={index} className="flex items-start gap-2">
-                                        <div className="w-4 h-4 border-2 border-gray-300 dark:border-gray-600 rounded-full"></div>
-                                        <span className='text-base'> {skill}</span>   
-                                    </div>
-                                ))}
-                        </div>                        
+                        <div className='card-skill-core'>
+                            <div className='flex flex-col items-start gap-3'>                       
+                                    {skillsData.soft.map((skill,index)=>(
+                                        <div key={index} className="flex items-start gap-2">
+                                            <div className="w-4 h-4 border-2 border-gray-300 dark:border-gray-600 rounded-full"></div>
+                                            <span className='text-base'> {skill}</span>   
+                                        </div>
+                                    ))}
+                            </div>                        
+                        </div>
+                       
                     </div>
                 </div>
             </div>
