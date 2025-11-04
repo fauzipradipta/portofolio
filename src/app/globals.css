@@ -121,14 +121,16 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 274rem; 
-  padding-bottom: 4rem; /* 64px */
+  padding-top: 314rem; 
+  padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
   z-index: 1;
 }
 
-
+.project-section{
+  margin-top: -15rem;
+}
 .hero-title { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
   font-size: 120px;
@@ -360,6 +362,24 @@ code {
   box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
 }
 
+.card-project {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+  padding: 24px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card-project--thin { 
+   padding: 8px;
+   max-width: 420px; 
+}
+.card-project:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
+}
+
 /* Layout System */
 .grid-container {
   display: grid;
@@ -408,6 +428,7 @@ code {
     margin-top: -10rem;
   }
 }
+
 @media (max-width: 767px) {
   .grid-container {
     padding: calc(var(--grid-unit) * 1);
