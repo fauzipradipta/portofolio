@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 216rem; /* 128px */
+  padding-top: 274rem; 
   padding-bottom: 4rem; /* 64px */
   min-height: 100vh;
   position: relative;
@@ -317,8 +317,45 @@ code {
   position: relative;
   overflow: hidden;
 }
-
 .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
+}
+.card-skill {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+  padding: 12px;
+  max-width: 250px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card-skill--thin { 
+   padding: 8px;
+   max-width: 420px; 
+}
+.card-skill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
+}
+
+.card-skill-core {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+  padding: 12px;
+  margin-left: 7rem;
+  max-width: 250px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card-skill-core--thin { 
+   padding: 8px;
+   max-width: 420px; 
+}
+.card-skill-core:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
 }
