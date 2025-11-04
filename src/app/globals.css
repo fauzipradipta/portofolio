@@ -128,6 +128,7 @@ code {
   z-index: 1;
 }
 
+
 .hero-title { 
   font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
   font-size: 120px;
@@ -356,6 +357,20 @@ code {
 }
 
 /* Responsive Design */
+@media (max-width:1366px){
+  .hero-section{
+    text-align:center;
+    padding-top: 274rem;
+  }
+
+  .work-experience-section{
+    margin-top: -20rem;
+  }
+
+  .skills-section{
+    margin-top: -10rem;
+  }
+}
 @media (max-width: 767px) {
   .grid-container {
     padding: calc(var(--grid-unit) * 1);

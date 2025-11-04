@@ -15,8 +15,15 @@ const App = () => {
                
                 </div>
                 <About />
-                <WorkExperience/>
-                <Skills/>
+
+                <div className="work-experience-section">
+                  <WorkExperience/>
+                </div>
+                
+                <div className="skills-section">
+                    <Skills/>
+                </div>
+                
             </main>
            
         </div>
