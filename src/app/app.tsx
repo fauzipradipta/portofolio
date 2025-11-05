@@ -5,6 +5,7 @@ import About from "./page/About";
 import WorkExperience from "./page/WorkExperience";
 import Skills from "./page/Skills";
 import Project from "./page/Project";
+import Footer from "./component/Footer";
 
 const App = () => {
     return(
@@ -30,7 +31,7 @@ const App = () => {
                 </div>
                 
             </main>
-           
+           <Footer/>
         </div>
     );
 }
