@@ -121,13 +121,16 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 314rem; 
+  padding-top: 327rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
   z-index: 1;
 }
 
+.footer-section{
+  margin-top: -14rem;
+}
 .project-section{
   margin-top: -15rem;
 }
@@ -189,7 +192,7 @@ code {
 
 .text-body { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
-  font-size: clamp(14px, 1.8vw, 18px); 
+  font-size: clamp(14px, 1.8vw, 24px); 
   font-weight: 400; 
   color: var(--text-primary); 
   line-height: 1.33;

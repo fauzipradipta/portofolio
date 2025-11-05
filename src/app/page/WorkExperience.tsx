@@ -1,6 +1,5 @@
 import React from "react";
 import { experienceData } from "../data/mock";
-// import {Card,CardContent,CardTitle} from "@/components/ui/card"
 
 const WorkExperience = () => {
     return(

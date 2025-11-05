@@ -13,11 +13,13 @@ const App = () => {
             <Header />
             <main>
                 <div className="hero-section">
-                 <Hero /> 
-               
+                  <Hero /> 
                 </div>
-                <About />
 
+                <div className="about-section">
+                   <About /> 
+                </div>
+                
                 <div className="work-experience-section">
                   <WorkExperience/>
                 </div>
@@ -29,9 +31,12 @@ const App = () => {
                 <div className="project-section">
                    <Project/> 
                 </div>
+                <div className="footer-section">
+                  <Footer/>  
+                </div>
                 
             </main>
-           <Footer/>
+           
         </div>
     );
 }

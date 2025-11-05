@@ -9,10 +9,10 @@ const About = () => {
           <div className="text-center mb-16">
             <p className=" title-big mb-4">About Me</p>
             <div className="about-bio">
-              <p className="text-regular text-justify leading-relaxed ">
+              <p className="text-body text-justify leading-relaxed ">
                 {aboutMeData.bio}              
               </p>
-              <p className="text-regular text-justify leading-relaxed sub-bio about-bio">
+              <p className="text-body text-justify leading-relaxed sub-bio about-bio">
                 {aboutMeData.subBio}
               </p>
             </div>
