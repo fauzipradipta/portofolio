@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 292rem; 
+  padding-top: 310rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -147,7 +147,7 @@ code {
 
 .hero-title { 
   font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
-  font-size: 60px;
+  font-size: 120px;
   /* font-weight: 900;  */
   color: var(--text-primary); 
   line-height: 1; 

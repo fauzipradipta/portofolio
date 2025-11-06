@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center pt-32">
       <div className="container mt-16">
         <div className="grid-container">
-          <div className="max-w-4xl mx-auto text-left">
+          <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               
               <h1 className="hero-title mb-8">
@@ -20,7 +20,7 @@ const Hero = () => {
 
                 {personalInfo.name}
               </h1>
-              <p className="label mb-8 ">Full Stack Software Engineer</p>
+              <p className="label mb-8 pt-8 ">Full Stack Software Engineer</p>
               <p className="text-bio max-w-3xl mx-auto">
                 {aboutData.bio}
               </p>
