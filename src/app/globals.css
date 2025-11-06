@@ -121,13 +121,23 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 327rem; 
+  padding-top: 299rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
   z-index: 1;
 }
 
+.about-section{
+  margin-top: -12rem;
+}
+
+.experience-list{
+  margin-top: 6rem;
+}
+.work-experience-section{
+  margin-top: -16rem;
+}
 .footer-section{
   margin-top: -14rem;
 }
@@ -135,7 +145,8 @@ code {
   margin-top: -15rem;
 }
 .hero-title { 
-  font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
+  /* font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif;  */
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
   font-size: 120px;
   font-weight: 900; 
   color: var(--text-primary); 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { personalInfo, aboutData } from '../data/mock';
-import Image from 'next/image';
 import ReadMoreButton from '../component/button/ReadMoreButton';
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
         <div className="grid-container">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <p className="label mb-4">Software Engineer</p>
+              
               <h1 className="hero-title mb-8">
                 {personalInfo.name.split(' ').map((word, index) => (
                   <span key={index} className="block">
@@ -21,6 +20,7 @@ const Hero = () => {
 
                 {/* {personalInfo.name} */}
               </h1>
+              <p className="label mb-4">Software Engineer</p>
               <p className="text-bio max-w-3xl mx-auto">
                 {aboutData.bio}
               </p>
