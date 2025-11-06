@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 299rem; 
+  padding-top: 292rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -144,14 +144,14 @@ code {
 .project-section{
   margin-top: -15rem;
 }
+
 .hero-title { 
-  /* font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif;  */
   font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
-  font-size: 120px;
-  font-weight: 900; 
+  font-size: 60px;
+  /* font-weight: 900;  */
   color: var(--text-primary); 
   line-height: 1; 
-  text-transform: uppercase; 
+  /* text-transform: uppercase;  */
   letter-spacing: -0.02em;
 }
 
@@ -177,6 +177,12 @@ code {
 
 .about-bio{
   margin-top: 50px;
+}
+
+.text-bio{
+  font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(24px, 2.5vw, 30px);
+  font-weight: 400;
 }
 .text-big { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
@@ -210,8 +216,8 @@ code {
 }
 
 .label { 
-  font-family: 'Courier New', ui-monospace, monospace; 
-  font-size: clamp(10px, 1.5vw, 18px); 
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(24px, 1.5vw, 30px); 
   font-weight: 400; 
   color: var(--text-primary); 
   line-height: 1; 
@@ -342,7 +348,7 @@ code {
   border: 1px solid var(--border-light);
   border-radius: 0;
   padding: 12px;
-  max-width: 250px;
+  max-width: 370px;
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;

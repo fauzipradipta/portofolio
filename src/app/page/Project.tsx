@@ -1,5 +1,5 @@
 import React from 'react';
-import { projectsData } from '../data/mock';
+import { pageTitles, projectsData } from '../data/mock';
 import Image from 'next/image';
 import { Github } from 'lucide-react';
 const Project = () => {
@@ -8,7 +8,7 @@ const Project = () => {
             <div className="container">
                 <div className="grid-container">
                     <div className="text-center mb-16">
-                        <p className="title-big mb-4">Project</p>                                                    
+                        <p className="title-big mb-4">{pageTitles.projects}</p>                                                    
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {projectsData.map((project) => (
                                 <div key={project.id} 

@@ -13,12 +13,12 @@ export const  personalInfo = {
 export const aboutData = {
   title:"Turning complex problems into elegant, scalable solutions — one line of code at a time.",
   bio: "Passionate full-stack software engineer with 2+ years of experience building scalable web applications and distributed systems. Specialized in React, Spring Boot, and cloud architecture.",
-  highlights: [
-    "5+ years of professional software development",
-    "Led teams of 3-5 engineers on multiple projects", 
-    "Built applications serving 100K+ users",
-    "Open source contributor with 2K+ GitHub stars"
-  ]
+  // highlights: [
+  //   "5+ years of professional software development",
+  //   "Led teams of 3-5 engineers on multiple projects", 
+  //   "Built applications serving 100K+ users",
+  //   "Open source contributor with 2K+ GitHub stars"
+  // ]
 };
 
 export const aboutMeData={
