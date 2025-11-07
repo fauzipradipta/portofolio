@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 310rem; 
+  padding-top: 340rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -434,7 +434,26 @@ code {
 }
 
 /* Responsive Design */
-@media (max-width:1366px){
+
+@media (min-width: 375px) and (max-width: 412px) {
+  .hero-section{
+    padding-top: 360rem;
+    margin-left: -8rem;
+  }
+
+  .hero-title {
+    font-size: 50px;
+  }
+  
+  .label{
+    font-size: clamp(20px, 1.5vw, 30px); 
+  }
+
+  .text-bio{
+    font-size: clamp(20px, 2.5vw, 24px);
+  }
+}
+/* @media (max-width:1366px){
   .hero-section{
     text-align:center;
     padding-top: 274rem;
@@ -447,7 +466,7 @@ code {
   .skills-section{
     margin-top: -10rem;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .grid-container {

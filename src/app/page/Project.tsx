@@ -6,8 +6,6 @@ const Project = () => {
     return(
         <section id="project" className="py-20 project-section">
             <div className="container">
-                
-
                 <div className="grid-container">
                     <div className="text-center mb-16">
                         <p className="title-big mb-4">{pageTitles.projects}</p>                                                    
