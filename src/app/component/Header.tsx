@@ -2,7 +2,7 @@
 import React from "react";
 import { Download } from "lucide-react";
 import { personalInfo } from "../data/mock";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../page/ThemeToggle";
 // import "../index.css";
 
 const Header = () => {
@@ -31,13 +31,13 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
-            <button onClick={() => scrollToSection('About')} className="nav-link">
+            <button onClick={() => scrollToSection('about')} className="nav-link">
               About
             </button>
-            <button onClick={() => scrollToSection('experience')} className="nav-link">
+            <button onClick={() => scrollToSection('work-experience')} className="nav-link">
               Experience
             </button>
-            <button onClick={() => scrollToSection('projects')} className="nav-link">
+            <button onClick={() => scrollToSection('project')} className="nav-link">
               Projects
             </button>
             <button onClick={() => scrollToSection('contact')} className="nav-link">
