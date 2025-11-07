@@ -88,47 +88,38 @@ export const experienceData = [
 export const projectsData = [
   {
     id: 1,
-    name: "E-Commerce Platform",
-    description: "Full-stack e-commerce platform with React frontend, Node.js backend, and MongoDB. Features include user authentication, payment processing, inventory management, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe API", "JWT", "Tailwind CSS"],
-    githubUrl: "https://github.com/alexthompson/ecommerce-platform",
-    liveUrl: "https://ecommerce-demo.alexthompson.dev",
+    name: "Coalescense",
+    description: "Coalescence is a visual novel that takes you deep within Moniker Labs to explore its secrets. Play as one of three characters, each with their own storyline and dialogue options. Form relationships with the companions you encounter and try to make it out alive!",
+    technologies: ["Ren'Py", "Python", "Visual Novels", "Storytelling", "Game Development"],
+    // githubUrl: "https://github.com/alexthompson/ecommerce-platform",
+    liveUrl: "https://store.steampowered.com/app/1979220/Coalescence/",
     featured: true
   },
   {
     id: 2,
-    name: "Task Management API",
-    description: "RESTful API for task management application built with FastAPI and PostgreSQL. Includes user authentication, role-based permissions, real-time notifications, and comprehensive documentation.",
-    technologies: ["Python", "FastAPI", "PostgreSQL", "JWT", "WebSockets", "Docker"],
-    githubUrl: "https://github.com/alexthompson/task-management-api",
-    liveUrl: "https://api-docs.alexthompson.dev",
+    name: "Professional Laundry",
+    description: "Professional Laundry was made with cross platform framework called Flutter. I used Flutter for the UI and frontend. I also used firebase as a backend to store user data to the database, also for send and receive data from the driver apps.",
+    technologies: ["Flutter","Dart","Firebase"],
+    githubUrl: "https://github.com/fauzipradipta/ProfessionalLaundry",
+    liveUrl: "https://youtu.be/9tbDiwasOcA",
     featured: true
   },
   {
     id: 3,
-    name: "Real-time Chat App",
-    description: "Real-time chat application with React frontend and Socket.io backend. Features include private messaging, group chats, file sharing, and message encryption.",
-    technologies: ["React", "Socket.io", "Node.js", "MongoDB", "JWT", "Crypto-js"],
-    githubUrl: "https://github.com/alexthompson/realtime-chat",
-    liveUrl: "https://chat.alexthompson.dev",
+    name: "Windner",
+    description: "What Windner does is using the city and date given by the user, the ML model predicts the future wind speed on that date and in that location using our modern + minimalistic application.",
+    technologies: ["HTML5", "CSS", "JavaScript", "Python", "Machine Learning"],
+    githubUrl: "https://github.com/fauzipradipta/WINDNER",
+    liveUrl: "https://youtu.be/FS_X30QAQgk",
     featured: false
   },
   {
     id: 4,
-    name: "Weather Dashboard",
-    description: "Weather dashboard with location-based forecasts, interactive maps, and historical data visualization. Built with React and integrated with multiple weather APIs.",
-    technologies: ["React", "Chart.js", "OpenWeather API", "Mapbox", "CSS3"],
-    githubUrl: "https://github.com/alexthompson/weather-dashboard",
-    liveUrl: "https://weather.alexthompson.dev",
-    featured: false
-  },
-  {
-    id: 5,
-    name: "DevOps Automation Scripts",
-    description: "Collection of automation scripts for deployment, monitoring, and infrastructure management. Includes Docker configurations, CI/CD pipelines, and monitoring dashboards.",
-    technologies: ["Python", "Bash", "Docker", "GitHub Actions", "Prometheus", "Grafana"],
-    githubUrl: "https://github.com/alexthompson/devops-scripts",
-    liveUrl: null,
+    name: "Present Worthy",
+    description: "Suggests gifts for the user to buy on amazon (due to quarantine we thought it was the best fit) based on the checklist form answers and an image of a present the user is thinking of. It also gives a score to the user, describing how well the chosen present image fits with the gift receiver's interests.",
+    technologies: ["HTML", "CSS", "JavaScript", "NodeJS"],
+    githubUrl: "https://github.com/Zandew/Present-Worthy",
+    liveUrl: "https://youtu.be/iI1Qs6kXVXY",
     featured: false
   }
 ];
