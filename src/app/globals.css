@@ -121,21 +121,37 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 274rem; 
-  padding-bottom: 4rem; /* 64px */
+  padding-top: 340rem; 
+  padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
   z-index: 1;
 }
 
+.about-section{
+  margin-top: -12rem;
+}
+
+.experience-list{
+  margin-top: 6rem;
+}
+.work-experience-section{
+  margin-top: -16rem;
+}
+.footer-section{
+  margin-top: -14rem;
+}
+.project-section{
+  margin-top: -15rem;
+}
 
 .hero-title { 
-  font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
   font-size: 120px;
-  font-weight: 900; 
+  /* font-weight: 900;  */
   color: var(--text-primary); 
   line-height: 1; 
-  text-transform: uppercase; 
+  /* text-transform: uppercase;  */
   letter-spacing: -0.02em;
 }
 
@@ -162,6 +178,12 @@ code {
 .about-bio{
   margin-top: 50px;
 }
+
+.text-bio{
+  font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(24px, 2.5vw, 30px);
+  font-weight: 400;
+}
 .text-big { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
   font-size: clamp(32px, 6vw, 84px); 
@@ -187,15 +209,15 @@ code {
 
 .text-body { 
   font-family: ui-sans-serif, system-ui, sans-serif; 
-  font-size: clamp(14px, 1.8vw, 18px); 
+  font-size: clamp(14px, 1.8vw, 24px); 
   font-weight: 400; 
   color: var(--text-primary); 
   line-height: 1.33;
 }
 
 .label { 
-  font-family: 'Courier New', ui-monospace, monospace; 
-  font-size: clamp(10px, 1.5vw, 18px); 
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(24px, 1.5vw, 30px); 
   font-weight: 400; 
   color: var(--text-primary); 
   line-height: 1; 
@@ -326,7 +348,7 @@ code {
   border: 1px solid var(--border-light);
   border-radius: 0;
   padding: 12px;
-  max-width: 250px;
+  max-width: 370px;
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
@@ -356,6 +378,24 @@ code {
    max-width: 420px; 
 }
 .card-skill-core:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
+}
+
+.card-project {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+  padding: 24px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card-project--thin { 
+   padding: 8px;
+   max-width: 20px; 
+}
+.card-project:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(35, 35, 35, 0.1);
 }
@@ -394,7 +434,26 @@ code {
 }
 
 /* Responsive Design */
-@media (max-width:1366px){
+
+@media (min-width: 375px) and (max-width: 412px) {
+  .hero-section{
+    padding-top: 360rem;
+    margin-left: -8rem;
+  }
+
+  .hero-title {
+    font-size: 50px;
+  }
+  
+  .label{
+    font-size: clamp(20px, 1.5vw, 30px); 
+  }
+
+  .text-bio{
+    font-size: clamp(20px, 2.5vw, 24px);
+  }
+}
+/* @media (max-width:1366px){
   .hero-section{
     text-align:center;
     padding-top: 274rem;
@@ -407,7 +466,8 @@ code {
   .skills-section{
     margin-top: -10rem;
   }
-}
+} */
+
 @media (max-width: 767px) {
   .grid-container {
     padding: calc(var(--grid-unit) * 1);

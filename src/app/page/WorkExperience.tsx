@@ -1,6 +1,5 @@
 import React from "react";
-import { experienceData } from "../data/mock";
-// import {Card,CardContent,CardTitle} from "@/components/ui/card"
+import { experienceData, pageTitles } from "../data/mock";
 
 const WorkExperience = () => {
     return(
@@ -8,7 +7,7 @@ const WorkExperience = () => {
             <div className="container">
                 <div className="grid-container">
                     <div className="text-center mb-16">
-                        <p className="title-big mb-4">Work Experience</p>
+                        <p className="title-big mb-4">{pageTitles.experience}</p>
                         <div className="experience-list">
                             <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3 gap-6">
                                 {experienceData.map((experience) => (
