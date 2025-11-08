@@ -50,7 +50,7 @@ export const experienceData = [
     position: "Quality Assurance",
     duration: "2022 - 2023",
     location: "Remote US",
-    description: "Lead development of microservices architecture serving 500K+ users. Built real-time analytics dashboard using React and Node.js. Mentored 3 junior engineers and established code review processes.",
+    description: "Collaborated with developers to resolve bugs and improve application performance. Created and executed test plans for web applications, ensuring high-quality releases.",
     achievements: [
       "Reduced API response times by 40% through optimization",
       "Led migration from monolith to microservices",
