@@ -513,11 +513,16 @@ code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
   .container {
     padding: 0 48px;
   }
+
+  .hero-section{
+    padding-top: 384rem; 
+  }
 }
+
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);
