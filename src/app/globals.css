@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 340rem; 
+  padding-top: 359rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -166,9 +166,10 @@ code {
 }
 
 .title-big { 
-  font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif; 
+  /* font-family: 'Arial Black', ui-sans-serif, system-ui, sans-serif;  */
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
   font-size: 48px;
-  font-weight: 900; 
+  /* font-weight: 900;  */
   color: var(--text-primary); 
   line-height: 1; 
   text-transform: uppercase;
@@ -186,6 +187,9 @@ code {
   color: var(--text-primary); 
   line-height: 1.07;
   
+}
+.text-right{
+  margin-right: -30rem;
 }
 
 .text-regular { 
@@ -363,7 +367,7 @@ code {
   border: 1px solid var(--border-light);
   border-radius: 0;
   padding: 12px;
-  margin-left: 7rem;
+  margin-left: 30rem;
   max-width: 250px;
   transition: all 0.2s ease;
   position: relative;
@@ -436,8 +440,8 @@ code {
 
 @media (min-width: 375px) and (max-width: 430px) {
   .hero-section{
-    padding-top: 389rem;
-    margin-left: -8rem;
+    padding-top: 463rem;
+    margin-left: -5rem;
     
   }
 
@@ -455,9 +459,8 @@ code {
     min-height: 52px;
   }
 
- 
   .about-section{
-    margin-left: -10rem;
+    margin-left: -4rem;
   }
 
   .title-big{
@@ -465,7 +468,35 @@ code {
   }
 }
 
+@media(min-width:360px) and (max-width:767px){
+  .hero-section{
+    padding-top: 463rem;
+    margin-left: -3rem;
+  }
 
+  .hero-title {
+    font-size: 60px;
+  } 
+
+  .label{
+    font-size: clamp(20px, 1.5vw, 24px);
+    margin-top:-2rem;
+  }
+
+   .btn-primary,
+  .btn-accent {
+    width: 48%;
+    min-height: 52px;
+  }
+
+  .about-section{
+    margin-left: -2rem;
+  }
+
+  .title-big{
+    font-size: 60px;
+  }
+}
 @media (max-width: 767px) {
   .grid-container {
     padding: calc(var(--grid-unit) * 1);
