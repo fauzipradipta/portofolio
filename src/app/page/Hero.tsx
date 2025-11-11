@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
-import { personalInfo, aboutData } from '@/data/mock"';
+import { personalInfo, aboutData } from '../data/mock';
 import ReadMoreButton from '../component/button/ReadMoreButton';
 
 const Hero = () => {
