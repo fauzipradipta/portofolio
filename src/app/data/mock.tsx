@@ -52,8 +52,7 @@ export const experienceData = [
     location: "Remote US",
     description: "Collaborated with developers to resolve bugs and improve application performance. Created and executed test plans for web applications, ensuring high-quality releases.",
     achievements: [
-      "Reduced API response times by 40% through optimization",
-      "Led migration from monolith to microservices",
+      "Help to resolve the bugs with customers' issues and improved user satisfaction",
       "Implemented automated testing increasing coverage to 95%"
     ]
   },
