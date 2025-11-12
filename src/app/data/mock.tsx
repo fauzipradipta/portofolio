@@ -53,7 +53,8 @@ export const experienceData = [
     description: "Collaborated with developers to resolve bugs and improve application performance. Created and executed test plans for web applications, ensuring high-quality releases.",
     achievements: [
       "Help to resolve the bugs with customers' issues and improved user satisfaction",
-      "Implemented automated testing increasing coverage to 95%"
+      "Help to resolve bugs for new feature releases, ensuring smooth launches",
+      "Developed automated test scripts using Cypress, reducing manual testing time by 40%"
     ]
   },
   {
