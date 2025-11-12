@@ -156,9 +156,10 @@ code {
 }
 
 .header-logo {
-  font-family: 'Courier New', ui-monospace, monospace;
+  /* font-family: 'Courier New', ui-monospace, monospace; */
+  font-family: 'poppins', ui-sans-serif, system-ui, sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: var(--text-primary);
   line-height: 1;
   text-transform: uppercase;
