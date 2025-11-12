@@ -17,7 +17,7 @@ const Hero = () => {
               <p className="label mb-8 pt-8 ">Full Stack Software Engineer</p>
                 
            <div className="w-full px-2 sm:px-4">
-              <p className="text-sm sm:text-base md:text-lg w-full max-w-xs sm:max-w-md md:max-w-2xl mx-auto leading-relaxed break-words whitespace-normal text-justify sm:text-center">
+              <p className="text-sm sm:text-base md:text-lg w-full max-w-xs sm:max-w-md md:max-w-2xl mx-auto leading-relaxed break-words whitespace-normal sm:text-center">
                   {aboutData.bio}
                 </p>
               </div>

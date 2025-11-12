@@ -13,12 +13,6 @@ export const  personalInfo = {
 export const aboutData = {
   title:"Turning complex problems into elegant, scalable solutions — one line of code at a time.",
   bio: "Passionate full-stack software engineer with 2+ years of experience building scalable web applications and distributed systems. Specialized in React, Spring Boot, and cloud architecture.",
-  // highlights: [
-  //   "5+ years of professional software development",
-  //   "Led teams of 3-5 engineers on multiple projects", 
-  //   "Built applications serving 100K+ users",
-  //   "Open source contributor with 2K+ GitHub stars"
-  // ]
 };
 
 export const aboutMeData={
@@ -38,7 +32,6 @@ export const skillsData = {
     "Agile/Scrum",
     "Code Review",
     "Technical Writing",
-    // "Mentoring",
     "Problem Solving"
   ]
 };
@@ -92,7 +85,6 @@ export const projectsData = [
     name: "Coalescense",
     description: "Coalescence is a visual novel that takes you deep within Moniker Labs to explore its secrets. Play as one of three characters, each with their own storyline and dialogue options. Form relationships with the companions you encounter and try to make it out alive!",
     technologies: ["Ren'Py", "Python", "Visual Novels", "Storytelling", "Game Development"],
-    // githubUrl: "https://github.com/alexthompson/ecommerce-platform",
     liveUrl: "https://store.steampowered.com/app/1979220/Coalescence/",
     featured: true
   },
