@@ -54,7 +54,7 @@ export const experienceData = [
     achievements: [
       "Help to resolve the bugs with customers' issues and improved user satisfaction",
       "Help to resolve bugs for new feature releases, ensuring smooth launches",
-      "Developed automated test scripts using Cypress, reducing manual testing time by 40%"
+      "Developed automated test scripts using Cypress"
     ]
   },
   {
@@ -63,11 +63,12 @@ export const experienceData = [
     position: "Full Stack Developer",
     duration: "2022 - 2022",
     location: "Remote US",
-    description: "Built and maintained customer-facing web applications using React, Node.js, and PostgreSQL. Collaborated with product and design teams to deliver features for 50K+ active users.",
+    description: "Developed and maintained internal tools web applications using Angular,SpringBoot anb MySql, collaborating with cross-functional teams to deliver high-quality software solutions.",
     achievements: [
-      "Developed user authentication system from scratch",
-      "Built responsive web app increasing mobile usage by 60%",
-      "Integrated third-party APIs and payment systems"
+      "Implemented JWT-based authentication in Spring Boot, enabling a robust security layer with role-based access control",
+      "Enhanced application security with Spring Security, safeguarding sensitive user data",
+      "Developed responsive web interfaces with Angular and CSS, improving usability and performance"
+      
     ]
   },
   {
@@ -76,11 +77,11 @@ export const experienceData = [
     position: "Software Engineer",
     duration: "2021 - 2021",
     location: "Alpharetta, GA",
-    description: "Developed web applications using JavaScript, Python, and MySQL. Worked on both frontend and backend features while learning best practices for software development.",
+    description: "Enhanced a full-stack application by developing secure backend services , reliable frontend components, and a modern user interface with SpringBoot and ReactJS.",
     achievements: [
-      "Built admin dashboard reducing manual work by 30%",
-      "Fixed critical bugs improving app stability",
-      "Contributed to open source projects"
+      "Built fraud detection workflows on Osmium MODX using Spring Boot and Java, establishing proactive safeguards for data protection.",
+      "Developed and implemented comprehensive unit tests with Jest, reducing production defects and ensuring code quality.",
+      "Revamped web pages with ReactJS, CSS and LESS, resulting in a more responsive and performant interface for end-users.s"
     ]
   }
 ];
