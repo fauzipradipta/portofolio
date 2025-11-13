@@ -16,11 +16,9 @@ export const metadata: Metadata = {
   title: "Syawadhilah Fauzi Pradipta",
   description: "Syawadhilah Fauzi Pradipta's Personal Portfolio Website",
   icons: {
-    icon:  'assets/icon3.png', // /public/favicon.ico
-      // You can also add multiple icons for different purposes:
-      shortcut: '/icon.png', // For older browsers
-      apple: '/icon.png',
-    
+    icon:  '/assets/icon3.png', 
+    shortcut: '/assets/icon3.png', 
+    apple: '/assets/icon3.png',
   },
 };
 
