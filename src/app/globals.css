@@ -460,7 +460,7 @@ code {
   .work-experience-section,
   .project-section,
   .footer-section {
-    margin-top: -214px !important; /* Remove negative margins on mobile */
+    margin-top: -214px !important; 
   }
   .label{
     margin-top: 0 !important;
@@ -475,16 +475,16 @@ code {
     margin-top: 1.5rem !important;
   }
    .text-right {
-    margin-right: 0 !important; /* Fix text alignment */
+    margin-right: 0 !important; 
   }
 
   .card-skill-core {
-    margin-right: 0 !important; /* Fix card alignment */
+    margin-right: 0 !important; 
     max-width: 100% !important;
   }
 
   .experience-list {
-    margin-top: 2rem !important; /* Reduce excessive margin */
+    margin-top: 2rem !important; 
   }
    .btn-primary,
   .btn-accent {

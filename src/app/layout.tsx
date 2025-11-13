@@ -16,17 +16,11 @@ export const metadata: Metadata = {
   title: "Syawadhilah Fauzi Pradipta",
   description: "Syawadhilah Fauzi Pradipta's Personal Portfolio Website",
   icons: {
-    icon: [
-      {
-        url: '/assets/icon.png',
-        sizes: '16x16',
-      },
-      {
-        url: '/assets/icon.png',
-        sizes: '192x192',
-        type: 'image/png',
-      },
-    ]
+    icon:  'assets/icon3.png', // /public/favicon.ico
+      // You can also add multiple icons for different purposes:
+      shortcut: '/icon.png', // For older browsers
+      apple: '/icon.png',
+    
   },
 };
 
