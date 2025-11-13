@@ -13,12 +13,6 @@ export const  personalInfo = {
 export const aboutData = {
   title:"Turning complex problems into elegant, scalable solutions — one line of code at a time.",
   bio: "Passionate full-stack software engineer with 2+ years of experience building scalable web applications and distributed systems. Specialized in React, Spring Boot, and cloud architecture.",
-  // highlights: [
-  //   "5+ years of professional software development",
-  //   "Led teams of 3-5 engineers on multiple projects", 
-  //   "Built applications serving 100K+ users",
-  //   "Open source contributor with 2K+ GitHub stars"
-  // ]
 };
 
 export const aboutMeData={
@@ -38,7 +32,6 @@ export const skillsData = {
     "Agile/Scrum",
     "Code Review",
     "Technical Writing",
-    // "Mentoring",
     "Problem Solving"
   ]
 };
@@ -52,9 +45,9 @@ export const experienceData = [
     location: "Remote US",
     description: "Collaborated with developers to resolve bugs and improve application performance. Created and executed test plans for web applications, ensuring high-quality releases.",
     achievements: [
-      "Reduced API response times by 40% through optimization",
-      "Led migration from monolith to microservices",
-      "Implemented automated testing increasing coverage to 95%"
+      "Help to resolve the bugs with customers' issues and improved user satisfaction",
+      "Help to resolve bugs for new feature releases, ensuring smooth launches",
+      "Developed automated test scripts using Cypress"
     ]
   },
   {
@@ -63,11 +56,12 @@ export const experienceData = [
     position: "Full Stack Developer",
     duration: "2022 - 2022",
     location: "Remote US",
-    description: "Built and maintained customer-facing web applications using React, Node.js, and PostgreSQL. Collaborated with product and design teams to deliver features for 50K+ active users.",
+    description: "Developed and maintained internal tools web applications using Angular,SpringBoot anb MySql, collaborating with cross-functional teams to deliver high-quality software solutions.",
     achievements: [
-      "Developed user authentication system from scratch",
-      "Built responsive web app increasing mobile usage by 60%",
-      "Integrated third-party APIs and payment systems"
+      "Implemented JWT-based authentication in Spring Boot, enabling a robust security layer with role-based access control",
+      "Enhanced application security with Spring Security, safeguarding sensitive user data",
+      "Developed responsive web interfaces with Angular and CSS, improving usability and performance"
+      
     ]
   },
   {
@@ -76,11 +70,11 @@ export const experienceData = [
     position: "Software Engineer",
     duration: "2021 - 2021",
     location: "Alpharetta, GA",
-    description: "Developed web applications using JavaScript, Python, and MySQL. Worked on both frontend and backend features while learning best practices for software development.",
+    description: "Enhanced a full-stack application by developing secure backend services , reliable frontend components, and a modern user interface with SpringBoot and ReactJS.",
     achievements: [
-      "Built admin dashboard reducing manual work by 30%",
-      "Fixed critical bugs improving app stability",
-      "Contributed to open source projects"
+      "Built fraud detection workflows on Osmium MODX using Spring Boot and Java, establishing proactive safeguards for data protection.",
+      "Developed and implemented comprehensive unit tests with Jest, reducing production defects and ensuring code quality.",
+      "Revamped web pages with ReactJS, CSS and LESS, resulting in a more responsive and performant interface for end-users.s"
     ]
   }
 ];
@@ -91,7 +85,6 @@ export const projectsData = [
     name: "Coalescense",
     description: "Coalescence is a visual novel that takes you deep within Moniker Labs to explore its secrets. Play as one of three characters, each with their own storyline and dialogue options. Form relationships with the companions you encounter and try to make it out alive!",
     technologies: ["Ren'Py", "Python", "Visual Novels", "Storytelling", "Game Development"],
-    // githubUrl: "https://github.com/alexthompson/ecommerce-platform",
     liveUrl: "https://store.steampowered.com/app/1979220/Coalescence/",
     featured: true
   },
