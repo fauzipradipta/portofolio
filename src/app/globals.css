@@ -439,34 +439,60 @@ code {
 
 /* Responsive Design */
 
-@media(min-width:360px) and (max-width:767px){
+@media (max-width:767px){
   .hero-section{
-    padding-top: 411rem;
-    margin-left: -8rem;
+    padding-top: 499rem !important; 
+    margin-left: -5rem !important;
+    min-height: auto;
   }
 
   .hero-title {
-    font-size: 60px;
+    font-size: clamp(45px, 12vw, 60px) !important;
   } 
 
-  .label{
-    font-size: clamp(20px, 1.5vw, 24px);
-    margin-top:-2rem;
+  .about-section{
+    margin-left: -4rem !important;
   }
 
+  .work-experience-section{
+    margin-left: -3rem !important;
+  }
+  .work-experience-section,
+  .project-section,
+  .footer-section {
+    margin-top: -214px !important; /* Remove negative margins on mobile */
+  }
+  .label{
+    margin-top: 0 !important;
+    font-size: clamp(18px, 4vw, 24px) !important;
+  }
+
+  .about-bio {
+    margin-top: 2rem !important;
+  }
+
+  .sub-bio {
+    margin-top: 1.5rem !important;
+  }
+   .text-right {
+    margin-right: 0 !important; /* Fix text alignment */
+  }
+
+  .card-skill-core {
+    margin-right: 0 !important; /* Fix card alignment */
+    max-width: 100% !important;
+  }
+
+  .experience-list {
+    margin-top: 2rem !important; /* Reduce excessive margin */
+  }
    .btn-primary,
   .btn-accent {
     width: 48%;
     min-height: 52px;
   }
 
-  .about-section{
-    margin-left: -8rem;
-  }
-
-  .title-big{
-    font-size: 60px;
-  }
+  
 }
 @media (max-width: 767px) {
   .grid-container {
