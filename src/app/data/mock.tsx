@@ -7,7 +7,7 @@ export const  personalInfo = {
   github: "https://github.com/fauzipradipta",
   linkedin: "https://www.linkedin.com/in/syawadhilah-pradipta/",
   website: "https://alexthompson.dev",
-  resumeUrl: "/resume-alex-thompson.pdf"
+  resumeUrl: "/Syawadhilah-Fauzi-Pradipta.pdf"
 };
 
 export const aboutData = {

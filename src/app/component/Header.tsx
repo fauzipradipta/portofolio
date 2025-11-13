@@ -17,7 +17,7 @@ const Header = () => {
     // Mock download functionality
     const link = document.createElement('a');
     link.href = personalInfo.resumeUrl;
-    link.download = 'Alex_Thompson_Resume.pdf';
+    link.download = 'Syawadhilah-Fauzi-Pradipta.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
