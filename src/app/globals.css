@@ -442,7 +442,7 @@ code {
 @media (max-width:768px){
   .hero-section{
     padding-top: 499rem !important; 
-    margin-left: -5rem !important;
+    margin-left: -2rem !important;
     min-height: auto;
   }
 
@@ -451,7 +451,8 @@ code {
   } 
 
   .about-section{
-    margin-left: -4rem !important;
+    margin-left: -2rem !important;
+    padding-top: 2rem !important; ;
   }
 
   .work-experience-section{
