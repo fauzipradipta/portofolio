@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 372rem; 
+  padding-top: 375rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -129,7 +129,7 @@ code {
 }
 
 .about-section{
-  margin-top: -12rem;
+  margin-top: 0rem;
 }
 
 .experience-list{
@@ -441,7 +441,7 @@ code {
 
 @media (max-width:768px){
   .hero-section{
-    padding-top: 499rem !important; 
+    padding-top: 520rem !important; 
     margin-left: -2rem !important;
     min-height: auto;
   }
@@ -452,7 +452,7 @@ code {
 
   .about-section{
     margin-left: -2rem !important;
-    padding-top: 2rem !important; ;
+    padding-top: 5rem !important;
   }
 
   .work-experience-section{
