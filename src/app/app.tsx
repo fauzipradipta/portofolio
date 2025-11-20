@@ -11,13 +11,16 @@ const App = () => {
     return(
         <div>
             <Header />
-            <main>
+
+            <div>
+
+              <main>
                 <div className="hero-section">
                   <Hero /> 
                 </div>
-
+                
                 <div className="about-section">
-                   <About /> 
+                  <About /> 
                 </div>
                 
                 <div className="work-experience-section">
@@ -29,13 +32,15 @@ const App = () => {
                 </div>
                 
                 <div className="project-section">
-                   <Project/> 
+                  <Project/> 
                 </div>
                 <div className="footer-section">
                   <Footer/>  
                 </div>
-                
-            </main>
+                  
+              </main>
+            </div>
+            
            
         </div>
     );

@@ -5,8 +5,7 @@ const Skills = () => {
     return(
         <section id="skills" className="py-20">
             <div className="container">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                    {/* Technical Skills */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 ">
                     <div className="text-left">
                         <p className="title-big mb-3">{pageTitles.skills}</p>
                         {skillsData.technical.map((techCategory) => (
