@@ -121,7 +121,7 @@ code {
 
 /* Typography System */
 .hero-section {
-  padding-top: 372rem; 
+  padding-top: 375rem; 
   padding-bottom: 4rem; 
   min-height: 100vh;
   position: relative;
@@ -129,7 +129,7 @@ code {
 }
 
 .about-section{
-  margin-top: -12rem;
+  margin-top: 0rem;
 }
 
 .experience-list{
