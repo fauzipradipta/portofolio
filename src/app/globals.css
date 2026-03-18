@@ -517,7 +517,8 @@ code {
   }
 
   .hero-section{
-    padding-top: 384rem; 
+    margin-top:41.5%;
+    min-height: calc(100vh - 80px);
   }
 }
 
