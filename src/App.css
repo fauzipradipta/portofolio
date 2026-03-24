@@ -185,25 +185,6 @@ code {
 }
 
 /* ============================================
-   Grid Background
-   ============================================ */
-/* .grid-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--color-background);
-  background-image:
-    linear-gradient(to right, var(--text-primary) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--text-primary) 1px, transparent 1px);
-  background-size: 47.6px 47.6px;
-  opacity: 0.05;
-  pointer-events: none;
-  z-index: -1;
-} */
-
-/* ============================================
    Grid Container
    ============================================ */
 .grid-container {
@@ -272,7 +253,6 @@ code {
   font-weight: 400;
   color: var(--text-primary);
   line-height: 1.33;
-  text-align: center;
 }
 
 .label {
