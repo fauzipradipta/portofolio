@@ -4,13 +4,11 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const Project = () => {
   return (
-    // Removed: py-20 — padding is handled by .project-section in globals.css
-    // Removed: project-section className (already applied by app.tsx wrapper)
     <div id="project" className="container">
       <div className="grid-container">
         <div className="text-left mb-16">
           <p className="title-big mb-4">{pageTitles.projects}</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {projectsData.map((project) => (
               <div
                 key={project.id}

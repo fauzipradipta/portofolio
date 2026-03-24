@@ -282,6 +282,11 @@ code {
   margin-top: 50px;
 }
 
+.bio-data{
+  margin-top: 40px;
+  margin-left:12%;
+}
+
 .sub-bio {
   margin-top: 3rem;
 }
@@ -442,10 +447,11 @@ code {
   background: var(--bg-white);
   border: 1px solid var(--border-light);
   border-radius: 0;
-  padding: 24px;
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
+  margin-top: 40px;
+  
 }
 .card-project--thin {
   padding: 8px;
@@ -463,6 +469,14 @@ code {
 @media (min-width: 1200px) and (max-width: 1440px) {
   .container {
     padding: 0 48px;
+  }
+
+  .hero-title{
+    font-size: 80px;
+  }
+
+  .title-big{
+    font-size: 40px;
   }
 }
 
