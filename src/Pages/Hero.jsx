@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 className="hero-title mb-4">{personalInfo.name}</h1>
             <p className="label mb-8">FULL STACK SOFTWARE ENGINEER</p>
             <div className="mb-12">
-              <p className="text-body leading-relaxed max-w-2xl mx-auto px-4">{aboutData.bio}</p>
+              <p className="text-body leading-relaxed max-w-2xl mx-auto px-4 bio-data">{aboutData.bio}</p>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
               <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center space-x-2 w-full sm:w-auto px-6 py-3">

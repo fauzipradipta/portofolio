@@ -185,25 +185,6 @@ code {
 }
 
 /* ============================================
-   Grid Background
-   ============================================ */
-/* .grid-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--color-background);
-  background-image:
-    linear-gradient(to right, var(--text-primary) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--text-primary) 1px, transparent 1px);
-  background-size: 47.6px 47.6px;
-  opacity: 0.05;
-  pointer-events: none;
-  z-index: -1;
-} */
-
-/* ============================================
    Grid Container
    ============================================ */
 .grid-container {
@@ -272,7 +253,6 @@ code {
   font-weight: 400;
   color: var(--text-primary);
   line-height: 1.33;
-  text-align: center;
 }
 
 .label {
@@ -300,6 +280,11 @@ code {
    ============================================ */
 .about-bio {
   margin-top: 50px;
+}
+
+.bio-data{
+  margin-top: 40px;
+  margin-left:12%;
 }
 
 .sub-bio {
@@ -462,10 +447,11 @@ code {
   background: var(--bg-white);
   border: 1px solid var(--border-light);
   border-radius: 0;
-  padding: 24px;
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
+  margin-top: 40px;
+  
 }
 .card-project--thin {
   padding: 8px;
@@ -483,6 +469,18 @@ code {
 @media (min-width: 1200px) and (max-width: 1440px) {
   .container {
     padding: 0 48px;
+  }
+
+  .hero-title{
+    font-size: 80px;
+  }
+
+  .title-big{
+    font-size: 40px;
+  }
+
+  .text-regular{
+    font-size: 18px;
   }
 }
 

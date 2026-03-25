@@ -6,7 +6,7 @@ const Skills = () => {
     // Removed: py-20 — padding is handled by .skills-section in globals.css
     <div id="skills" className="container">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-        <div className="text-left">
+        <div className="text-left lg:col-span-2">
           <p className="title-big mb-3">{pageTitles.skills}</p>
           {skillsData.technical.map((techCategory) => (
             <div
@@ -28,8 +28,10 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="flex flex-col items-center md:items-end lg:col-span-1">
-          <p className="title-big mb-6 text-center md:text-right w-full">{pageTitles.competencies}</p>
+        <div className="flex flex-col lg:col-start-3">
+          <p className="title-big mb-6 text-left w-full whitespace-nowrap">
+            {pageTitles.competencies}
+          </p>
           <div className="card-skill-core w-full max-w-xs">
             <div className="flex flex-col items-center gap-5">
               {skillsData.soft.map((skill, index) => (

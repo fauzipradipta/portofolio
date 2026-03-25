@@ -14,16 +14,23 @@ const Footer =()=>{
                                     Contact Me:
                                 </p>
                                 <a href={`mailto:${personalInfo.email}`} className="text-body text-gray-600 dark:text-gray-400 hover:underline mr-4">
-                                    <Mail size={24} className="inline-block mr-2 "/> {personalInfo.email} </a>
+                                    <Mail  className="inline-block mr-2 w-4 h-4 md:w-6 md:h-6 "/> {personalInfo.email} </a>
                                 
                                 <span className="text-body text-gray-600 dark:text-gray-400 mr-4">
-                                    <Phone size={24} className="inline-block mr-2 "/>  {personalInfo.phone}</span>
+                                    <Phone size={24} className="inline-block mr-2 w-4 h-4 md:w-6 md:h-6 "/>  {personalInfo.phone}</span>
                                 
                                 <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="text-body text-gray-600 dark:text-gray-400 hover:underline mr-4">
-                                    <Linkedin size={24} className="inline-block mr-2 "/> {personalInfo.linkedin} </a>
+                                    <Linkedin size={24} className="inline-block mr-2 w-4 h-4 md:w-6 md:h-6 "/> {personalInfo.linkedin} </a>
                             </div>                            
                         </div>                                                                        
                     </div>
+
+                    {/* 
+                        ==============================================================================
+                        Add Contact Us Box so customer be able to send an email through the input box
+                        ==============================================================================
+                    
+                    */}
                 </div>                           
             </div>
         </footer>
