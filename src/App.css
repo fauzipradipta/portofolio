@@ -478,6 +478,10 @@ code {
   .title-big{
     font-size: 40px;
   }
+
+  .text-regular{
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 1024px) {
