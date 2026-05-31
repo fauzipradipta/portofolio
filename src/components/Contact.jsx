@@ -10,13 +10,13 @@ export default function Contact({ id }) {
           <h2 className="contact-headline reveal">
             Let&rsquo;s build something
             <br />
-            <a href="mailto:hello@sfpradipta.dev">together.</a>
+            <a href="mailto:dipta0988@gmail.com">together.</a>
           </h2>
           <div className="contact-side reveal">
             <div className="row">
               <div className="label">Email</div>
               <div className="value">
-                <a href="mailto:hello@sfpradipta.dev">hello@sfpradipta.dev</a>
+                <a href="mailto:dipta0988@gmail.com">dipta0988@gmail.com</a>
               </div>
             </div>
             <div className="row">
@@ -28,15 +28,13 @@ export default function Contact({ id }) {
             <div className="row">
               <div className="label">Elsewhere</div>
               <div className="socials">
-                <a href="#" onClick={(e) => e.preventDefault()}>
+                <a href="https://github.com/fauzipradipta" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-                <a href="#" onClick={(e) => e.preventDefault()}>
+                <a href="https://www.linkedin.com/in/syawadhilah-pradipta/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
-                <a href="#" onClick={(e) => e.preventDefault()}>
-                  Twitter
-                </a>
+               
                 <a href="#" onClick={(e) => e.preventDefault()}>
                   Read.cv
                 </a>

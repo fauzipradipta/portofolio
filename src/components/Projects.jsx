@@ -77,7 +77,19 @@ export default function Projects({ id }) {
                   <span key={s}>{s}</span>
                 ))}
               </div>
-              <div className="p-arrow">↗</div>
+              {p.link ? (
+                <a
+                  className="p-arrow"
+                  href={p.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  ↗
+                </a>
+              ) : (
+                <div className="p-arrow">↗</div>
+              )}
             </div>
           ))}
         </div>
