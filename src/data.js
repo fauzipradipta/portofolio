@@ -2,6 +2,14 @@
 
 export const PROJECTS = [
   {
+    name: "superdive",
+    desc:" superdive is a CRM tools specialist for diving centers. It helps diving centers manage their customers, bookings, and payments. It also provides a dashboard for diving centers to see their performance and growth.",
+    stack: ["React", "SpringBoot", "MySql", "Docker"],
+    color: "#2A3D66",
+    bg: "#D9E0F2",
+    link: "https://superdive-alpha.vercel.app/",
+  },
+  {
     name: "Coalescence",
     desc: "Coalescence is a visual novel that takes you deep within Moniker Labs to explore its secrets. Play as one of three characters, each with their own storyline and dialogue options. Form relationships with the companions you encounter and try to make it out alive!",
     stack: ["Ren'Py", "Python", "Visual Novels", "Storytelling", "Game Development"],
