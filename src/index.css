@@ -334,13 +334,14 @@ section:first-of-type { border-top: none; }
   background: var(--bg-alt);
   border: 1px solid var(--line);
   border-radius: 2px;
-  display: flex; align-items: flex-end; justify-content: flex-start;
-  padding: 14px;
-  font-family: var(--mono);
-  font-size: 10.5px;
-  color: var(--mute);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
+  overflow: hidden;
+}
+.about-portrait-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .about-copy h2 {
   font-family: var(--serif);

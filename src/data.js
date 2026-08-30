@@ -70,7 +70,7 @@ export const EXPERIENCE = [
     when: "2026 — Present",
     role: "Software Engineer",
     where: "NTT Data, Indonesia",
-    desc: "Designed and implemented a microservices-based architecture for a high-traffic web application using Spring Boot, resulting in improved scalability and maintainability. Developed and maintained database schemas and queries for Oracle, ensuring data integrity and performance. Implemented database migration strategies using Flyway to manage schema changes across multiple environments. Stored object data on AWS, utilizing services such as S3 to ensure high availability and reliability.",
+    desc: "Designed and implemented a microservices-based architecture for a high-traffic web application using Spring Boot, resulting in improved scalability and maintainability. Developed and maintained database schemas and queries using Oracle, ensuring data integrity and performance. Implemented database migration strategies using Flyway to manage schema changes across multiple environments. Stored object data on AWS, utilizing services such as S3 to ensure high availability and reliability.",
     tags: ["Spring Boot", "Oracle","Flyway", "AWS"],
   },
   {

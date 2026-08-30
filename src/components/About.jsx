@@ -1,4 +1,5 @@
 import SectionReorder from "./SectionReorder.jsx";
+import portrait from "../portfolio-portrait.png";
 
 export default function About({ id }) {
   return (
@@ -7,7 +8,13 @@ export default function About({ id }) {
         <SectionReorder id={id} />
         <div className="section-label parallax-slow">01 — About</div>
         <div className="about-grid">
-          <div className="about-portrait reveal">Portrait</div>
+          <div className="about-portrait reveal">
+            <img
+              src={portrait}
+              alt="Portfolio portrait"
+              className="about-portrait-image"
+            />
+          </div>
           <div className="about-copy">
             <h2 className="reveal">
               I build software that is clear, fast, and considered — from the
