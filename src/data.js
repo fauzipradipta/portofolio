@@ -82,7 +82,7 @@ export const EXPERIENCE = [
     tags: ["Spring Boot", "Oracle","Flyway", "AWS"],
   },
   {
-    when: "2025-2026",
+    when: "2025 — 2026",
     role: "Software Engineer ",
     where: "DubiApp, Remote",
     desc: "Translated UI/UX designs into functional mobile applications using React Native and Expo Router, and built Jest unit tests with Jenkins CI/CD pipelines to improve deployment speed and reliability. Also mentored and provided technical support to two engineers in mobile app development.",
